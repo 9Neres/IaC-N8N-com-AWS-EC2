@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="./assets/x.jpeg" alt="Banner do projeto" width="350">
+  <img
+    src="./assets/x.jpeg"
+    alt="Banner do projeto"
+    width="550"
+    style="max-width: 90%; border-radius: 30px;"
+  >
 </p>
 
 # IaC para EC2 e n8n
