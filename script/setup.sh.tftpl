@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+export DEBIAN_FRONTEND=noninteractive
+
+apt-get update
+
+apt-get install -y docker.io docker-compose-v2
+systemctl enable --now docker
+usermod -aG docker ubuntu
+
+mkdir -p /opt/n8n
+
+cat > /opt/n8n/docker-compose.yml <<'COMPOSE'
+${docker_compose}
+COMPOSE
+
+cd /opt/n8n
+docker compose up -d
