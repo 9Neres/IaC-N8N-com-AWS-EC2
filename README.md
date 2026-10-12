@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="Assets/x.jpeg" alt="banner" style="max-width: 90%"; border-radius=: 30px; width="350">
+</div><br><br>
+
 # IaC para EC2 e n8n
 
 **Versão:** 1.0
