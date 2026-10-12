@@ -11,7 +11,7 @@
 
 **Versão:** 1.0
 
-Projeto simples para criar uma instância EC2 com Ubuntu Server 24.04 LTS e executar o n8n usando Docker Compose.
+Projeto simples para criar uma instância EC2 com Ubuntu Server 24.04 LTS e executar o n8n usando Docker Compose para provisionar um ambiente para criação de automaçÕes.
 
 [![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://developer.hashicorp.com/terraform/docs)
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)](https://aws.amazon.com/)
