@@ -1,6 +1,6 @@
-<div align="center">
-    <img src="Assets/x.jpeg" alt="banner" style="max-width: 90%"; border-radius=: 30px; width="350">
-</div><br><br>
+<p align="center">
+  <img src="./assets/x.jpeg" alt="Banner do projeto" width="350">
+</p>
 
 # IaC para EC2 e n8n
 
