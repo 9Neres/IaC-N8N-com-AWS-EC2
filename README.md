@@ -53,7 +53,7 @@ Depois, edite `terraform/terraform.tfvars`:
 ```hcl
 aws_region          = "us-east-1"
 instance_type       = "t3.micro"
-ssh_public_key_path = "~/.ssh/id_ed25519.pub"
+ssh_public_key_path = "~/.ssh/"
 allowed_ipv4_cidr   = "SEU_IP_PUBLICO/32"
 ```
 
